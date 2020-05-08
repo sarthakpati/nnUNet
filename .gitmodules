@@ -1,0 +1,3 @@
+[submodule "hiddenlayer"]
+	path = hiddenlayer
+	url = https://github.com/nanohanno/hiddenlayer.git
