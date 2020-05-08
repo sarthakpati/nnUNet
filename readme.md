@@ -113,7 +113,7 @@ When installing apex, you have two choices (both are described on the apex websi
           conda activate ./venv
           conda install pytorch -y
           pip install Pillow==7
-          pip install torch tqdm dicom2nifti scikit-image medpy scipy batchgenerators numpy sklearn SimpleITK pandas nibabel
+          pip install -e .
           ```
 4) nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to 
 set a few of environment variables. Please follow the instructions [here](documentation/setting_up_paths.md).
