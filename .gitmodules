@@ -1,4 +1,0 @@
-[submodule "hiddenlayer"]
-	path = hiddenlayer
-	url = https://github.com/nanohanno/hiddenlayer.git
-	branch = bugfix/get_trace_graph
