@@ -106,6 +106,15 @@ When installing apex, you have two choices (both are described on the apex websi
           cd nnUNet
           pip install -e .
           ```
+
+    3) Installation with Conda (works on Windows):
+          ```powershell
+          conda create -p ./venv python=3.6.5 -y
+          conda activate ./venv
+          conda install pytorch -y
+          pip install Pillow==7
+          pip install torch tqdm dicom2nifti scikit-image medpy scipy batchgenerators numpy sklearn SimpleITK pandas nibabel
+          ```
 4) nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to 
 set a few of environment variables. Please follow the instructions [here](documentation/setting_up_paths.md).
 5) (OPTIONAL) Install [hiddenlayer](https://github.com/waleedka/hiddenlayer). hiddenlayer enables nnU-net to generate 
